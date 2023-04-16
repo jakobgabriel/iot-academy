@@ -1,9 +1,9 @@
 ---
 layout: course
-permalink: /courses/grafana
+permalink: /courses/grafana-basic-training
 title: Grafana
 description: Grafana is an open source web application that enables interactive visualization and analysis of data through charts, graphs, and alerts. It is widely used in monitoring stacks and integrates with time series databases like InfluxDB, Prometheus and Graphite to create meaningful visualizations from  time-series data.
-image: /assets/grafana.png
+image: /assets/courses/grafana/grafana-basic-training/grafana.png
 duration: 2.5 hours
 difficulty: Basic / Entry Level Training
 packages:

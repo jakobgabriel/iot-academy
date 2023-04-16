@@ -1,6 +1,6 @@
 title: Courses by Jakob Gabriel
 description: Courses by Jakob Gabriel
-baseurl: '/jakob-courses'
+baseurl: '/academy-webpage'
 url: ''
 plugins:
   - jekyll-feed

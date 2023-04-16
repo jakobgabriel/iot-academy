@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+<main class="main  container">
+
+  <article class="article  article--post  content  typeset">
+
+    <div class="header-container">
+      <h1>{{page.title}}</h1>
+      <a href="{{'/enroll' | relative_url}}" class="button">Enroll Now!</a>
+    </div>
+    <br>
+    <img src="{{page.image | relative_url}}" alt="{{page.title}}" srcset="">
+    <small class="small  post-meta">
+      {{ page.difficulty | append: "&nbsp;&middot;&nbsp;" | append: page.duration }}
+    </small>
+    {{ content }}
+    <h3>Packages</h3>
+    <br>
+    <div class="package-container">
+      {% for package in page.packages %}
+      <div class="package">
+        <h3>{{package.name}}</h3>
+        <h4>{{package.price}}</h4>
+        <ul>
+          {% for item in package.items %}
+          <li>{{item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="enroll">
+      <h5>{{page.enroll_text | default: 'Interested in this course?'}}</h5>
+      <br>
+      <a href="{{'/enroll' | relative_url}}" class="button">Enroll Now!</a>
+    </div>
+    {% include nav-share.html %}
+  </article>
+
+</main>
+
+{% include site-footer.html %}

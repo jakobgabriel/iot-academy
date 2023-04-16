@@ -1,0 +1,17 @@
+title: Courses by Jakob Gabriel
+description: Courses by Jakob Gabriel
+baseurl: '/jakob-courses'
+url: ''
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-commonmark
+  - jekyll-include-cache
+  - jemoji
+collections:
+  courses:
+    output: true

@@ -1,0 +1,21 @@
+{% for item in site.data.courses %}
+<section class="section  typeset">
+  <h3 id="{{ item.name | slugify }}" style="opacity: 0.75;">{{ item.name }}</h3>
+  <ul class="list  list--posts">
+    {% for course in item.courses %}
+    <li class="item  item--post">
+      <article class="article  article--post  typeset">
+        <img src="{{course.image | relative_url}}" alt="{{course.title}}" srcset="">
+        <h3><a href="{{ course.url | relative_url }}">{{ course.title }}</a></h3>
+        <p>{{course.description}}</p>
+        <small class="small  post-meta">
+          {{ course.difficulty | append: "&nbsp;&middot;&nbsp;" | append: course.duration }}
+        </small>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+  {% unless forloop.last %}
+  <hr />{% endunless %}
+</section>
+{% endfor %}

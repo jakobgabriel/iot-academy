@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&display=swap');
+* {
+  font-family: 'IBM Plex Serif' !important;
+}
+.package-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.package {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  flex-grow: 1;
+  border-radius: 0.5em;
+  border: 2px solid $linkColour;
+  background-color: $featureBackgroundColour;
+  h4 {
+    color: $linkColour;
+  }
+  ul {
+    padding-top: 1em;
+    padding-left: 1em;
+    li {
+      font-size: 0.75em;
+    }
+  }
+}
+.enroll {
+  margin-top: 1em;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5em;
+  background-color: $featureBackgroundColour;
+}
+.content {
+  width: 100%;
+  ol {
+    margin-left: 2em;
+    li {
+      ol {
+        color: #5d5d5d;
+      }
+    }
+  }
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}

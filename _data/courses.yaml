@@ -1,0 +1,9 @@
+- name: Open-Source Software Training
+  description: Master open-source software with these courses
+  courses:
+    - title: Grafana
+      description: Master Grafana with this course
+      difficulty: Basic / Entry Level Training
+      duration: 2.5 hours
+      url: /courses/grafana
+      image: /assets/grafana.png

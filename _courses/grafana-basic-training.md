@@ -13,23 +13,29 @@ packages:
       - Execution of Grafana training as described
       - Provisioning of training documentation (Presentation)
       - 'Training Duration: 2.5 h'
+      - 'Additional Q&A Session: 30 min' 
       - 'Training Execution: Online (Teams, Zoom)'
-  - name: Bronze
-    price: 250 €
+  - name: Silver
+    price: 350 €
     items:
       - Execution of Grafana training as described
       - Provisioning of training documentation (Presentation)
+      - Provisioning of Grafana deployment template including example data and dashboards
       - 'Training Duration: 2.5 h'
       - 'Training Execution: Online (Teams, Zoom)'
-  - name: Bronze
-    price: 250 €
+  - name: Gold
+    price: 500 €
     items:
       - Execution of Grafana training as described
       - Provisioning of training documentation (Presentation)
+      - Provisioning of Grafana deployment template including example data and dashboards 
+      - Preparation of custom dashboard examples based on custom data examples (SQL dumps) 
       - 'Training Duration: 2.5 h'
+      - 'Additional Q&A Session: 1 h'
       - 'Training Execution: Online (Teams, Zoom)'
 enroll_text: Interested in this course?
 ---
+
 
 ### Training Description
 
@@ -64,6 +70,8 @@ Grafana is an open source web application that enables interactive visualization
    4. Basic Configuration of Visualization
 
 6. Summary
+
+
 
 ### Training Participants
 

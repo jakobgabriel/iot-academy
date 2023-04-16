@@ -1,9 +1,9 @@
-- name: Open-Source Software Training
-  description: Master open-source software with these courses
+- name: IoT Academy - Training Overview
+  description: Build knowledge about latest Open Source Tools
   courses:
-    - title: Grafana
-      description: Master Grafana with this course
-      difficulty: Basic / Entry Level Training
+    - title: Grafana - Basic Training
+      description: Start your Grafana Journey now!
+      difficulty: Basic / Entry Level
       duration: 2.5 hours
-      url: /courses/grafana
+      url: /courses/grafana-basic-training
       image: /assets/grafana.png

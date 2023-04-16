@@ -1,7 +1,7 @@
-title: Courses by Jakob Gabriel
-description: Courses by Jakob Gabriel
-baseurl: '/academy-webpage'
-url: ''
+title: IoT Academy
+description: Trainings by Jakob Gabriel
+baseurl: '/iot-academy'
+url: 'https://jakobgabriel.github.io/iot-academy'
 plugins:
   - jekyll-feed
   - jekyll-sitemap
